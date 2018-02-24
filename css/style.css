@@ -1,0 +1,12 @@
+html,body { padding: 0; font-family: sans-serif; }
+.page-header { display: flex; align-items: center; justify-content: center; }
+.page-header__title { align-items: center; font-family: Bangers, sans-serif; margin: 0; }
+.page-header__doggo {
+  max-width: 15%;
+}
+
+@media (min-width: 500px) {
+  .page-header__doggo {
+    max-width: 100%;
+  }
+}
